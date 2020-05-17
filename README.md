@@ -99,3 +99,6 @@ Options
 ## License
 
 [Apache 2.0][license] © **Miraculous Owonubi** ([@miraclx][author-url]) &lt;omiraculous@gmail.com&gt;
+
+[license]:  LICENSE "Apache 2.0 License"
+[author-url]: https://github.com/miraclx
