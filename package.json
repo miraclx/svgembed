@@ -1,0 +1,43 @@
+{
+  "name": "svgembed",
+  "version": "0.0.1",
+  "description": "SVG embedder for svg-term",
+  "main": "svgembed",
+  "scripts": {
+    "push": "git push github master"
+  },
+  "bin": {
+    "svgembed": "svgembed.js"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "files": [],
+  "directories": {},
+  "keywords": [
+    "svt-term",
+    "svt-term-cli",
+    "tty",
+    "svg",
+    "css",
+    "asciinema",
+    "asciicast",
+    "embedder",
+    "font"
+  ],
+  "author": {
+    "name": "Miraculous Owonubi",
+    "email": "omiraculous@gmail.com",
+    "url": "https://about.me/miraclx"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:miraclx/svgembed.git"
+  },
+  "bugs": {
+    "url": "https://github.com/miraclx/svgembed/issues"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {},
+  "devDependencies": {}
+}
