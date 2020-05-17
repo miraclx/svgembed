@@ -62,12 +62,13 @@ Options
 
 ### Processed
 
-`svgembed -i demo.svg -o final.svg -r -f nerd_fonts.ttf -t "svgembed is cool"`
+`svgembed -i demo.svg -o final.svg -r -f nerd_fonts.ttf -t "svgembed is cool" --hover`
 
 - Input Size: `501.62 KiB`
 - Font: Fira Code Nerd Font, Regular (`1007.0 KiB`)
 - Title: `"svgembed is cool"`
 - Icon position: `right`
+- On hover: `dim` (view the [raw SVG](https://cdn.jsdelivr.net/gh/miraclx/svgembed/media/final.svg) to see this)
 - Output Size: `1844.76 KiB`
 
 ![Screenshot of embedded fonts](media/final.svg)
