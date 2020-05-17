@@ -170,7 +170,7 @@ function insertTitleAndPositionIcons(file, args) {
   // match the first <rect><svg></svg> to extract data from
   return file.replace(/<rect.+\/><svg.+?<\/svg>/, full => {
     // extract the terminal dimensions
-    const size_match = full.match(/width=["'](?<width>.+?)["'] height=["'](?<height>.+?)["']/);
+    const size_match = full.match(/width=["'](.+?)["'] height=["'](.+?)["']/);
     const [, width, height] = size_match || [];
     return (
       full
