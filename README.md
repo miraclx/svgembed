@@ -8,7 +8,7 @@
 - [x] Embed custom fonts (ttf, otf) **[useful in the case of embedding powerline/nerd fonts]**
 - [ ] Multiple font files
 - [x] Move icons (close, minimize, maximize) to the right side of the window.
-- [x] Window icon darken on hover
+- [x] Window icon darken on hover (doesn't work behind `<img>` tags like on GitHub)
 - [ ] Customize window icon order
 - [ ] Embed custom CSS
 - [ ] Handle filestreams and `stdin`
