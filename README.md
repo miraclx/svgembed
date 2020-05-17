@@ -30,7 +30,7 @@ svgembed (c) 2020 Miraculous Owonubi <omiraculous@gmail.com>
 Usage: svgembed [options]
 
 Options
-  -i, --input <VALUE>  the input svg file
+  -i, --input <VALUE>  the input SVG file
   -o, --output <VALUE> the output file name
   -f, --font <VALUE>   fontfile to be embedded (otf/ttf)
   -t, --title [VALUE]  set terminal window title (default: "Terminal")

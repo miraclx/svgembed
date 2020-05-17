@@ -10,7 +10,7 @@ const VALID_ARGS = [
     value: true,
     expected: true,
     required: true,
-    description: 'the input svg file',
+    description: 'the input SVG file',
     transform(inputfile) {
       if (!(fs.existsSync(inputfile) && fs.statSync(inputfile).isFile()))
         throw new Error('<inputfile> should be an existent file');
