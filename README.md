@@ -2,6 +2,15 @@
 
 > SVG embedder for <https://github.com/marionebl/svg-term>
 
+## Installing
+
+``` bash
+npm install -g git+https://github.com/miraclx/svgembed
+
+# alternatively, with yarn
+yarn global add https://github.com/miraclx/svgembed.git
+```
+
 ## Features
 
 - [x] Window titles
