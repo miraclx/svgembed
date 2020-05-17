@@ -53,6 +53,8 @@ Options
 
 ### Original SVG from svg-term
 
+`svg-term --in media/demp --out demo.svg --window --term konsole --width 78`
+
 ![Screenshot of original output from svg-term](media/demo.svg)
 
 ### Processed
