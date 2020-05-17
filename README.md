@@ -53,7 +53,10 @@ Options
 
 ### Original SVG from svg-term
 
-`svg-term --in media/demp --out demo.svg --window --term konsole --width 78`
+`svg-term --in media/demo --out demo.svg --window --term konsole --width 78`
+
+- Input Size: `52.10 KiB`
+- Output Size: `501.62 KiB`
 
 ![Screenshot of original output from svg-term](media/demo.svg)
 
@@ -61,11 +64,11 @@ Options
 
 `svgembed -i demo.svg -o final.svg -r -f nerd_fonts.ttf -t "svgembed is cool"`
 
-- Input Size: `500.52 KiB`
+- Input Size: `501.62 KiB`
 - Font: Fira Code Nerd Font, Regular (`1007.0 KiB`)
 - Title: `"svgembed is cool"`
 - Icon position: `right`
-- Output Size: `1843.56 KiB`
+- Output Size: `1844.76 KiB`
 
 ![Screenshot of embedded fonts](media/final.svg)
 
